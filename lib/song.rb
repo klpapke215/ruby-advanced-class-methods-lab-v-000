@@ -7,15 +7,8 @@ class Song
     @@all
   end
 
-  def save
-    self.class.all << self
-  end
-
   def self.create
-    binding.pry
-    self.class.all << self
+    self.all << self
     self
   end
-
-
 end
