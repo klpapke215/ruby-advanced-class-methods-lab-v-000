@@ -39,7 +39,7 @@ class Song
     if song
       song
     else
-      self.new_by_name(name)
+      self.create_by_name(name)
     end
   end
 end
