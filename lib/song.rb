@@ -11,7 +11,5 @@ class Song
     song = self.new
     self.all << song
     song
-    binding.pry
-    
   end
 end
