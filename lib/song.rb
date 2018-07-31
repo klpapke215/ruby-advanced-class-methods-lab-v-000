@@ -8,6 +8,7 @@ class Song
   end
 
   def self.create
+    binding.pry
     self.all << self
     self
   end
