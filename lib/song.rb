@@ -19,4 +19,9 @@ class Song
     self.all << song
     song
   end
+
+  def Song.new_by_name("name")
+    name = name.new 
+    name 
+  end
 end
