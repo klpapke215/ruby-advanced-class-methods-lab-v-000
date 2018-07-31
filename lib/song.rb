@@ -9,7 +9,8 @@ class Song
 
   def self.create
     binding.pry
-    self.all << self
-    self
+    song = self.new
+    self.all << song
+    song
   end
 end
